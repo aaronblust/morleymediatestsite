@@ -9,7 +9,7 @@ description: >-
 # no trailing slash. It's used to build sharing links etc.
 # ---------------------------------------------------------------
 url: "https://www.yourdomain.com"
-baseurl: ""
+baseurl: "/morleymediatestsite"
 
 email: hello@morelymedia.com
 location: "Juneau, Alaska"
