@@ -1,0 +1,24 @@
+---
+layout: default
+---
+<section class="projects-intro wrap">
+  <p class="eyebrow">00:00 — SELECTED WORK</p>
+  <h1>{{ page.title }}</h1>
+  {% if content %}<div class="projects-intro__text">{{ content }}</div>{% endif %}
+</section>
+
+<section class="projects-grid wrap">
+  {% assign sorted_projects = site.projects | sort: 'order' %}
+  {% for project in sorted_projects %}
+  <a class="project-card" href="{{ project.url | relative_url }}">
+    <div class="project-card__media">
+      <img src="{{ project.cover | relative_url }}" alt="{{ project.title }}">
+      <span class="project-card__reel">REEL {{ forloop.index | prepend: '0' | slice: -2, 2 }}</span>
+    </div>
+    <div class="project-card__caption">
+      <h2>{{ project.title }}</h2>
+      <p>{{ project.summary }}</p>
+    </div>
+  </a>
+  {% endfor %}
+</section>

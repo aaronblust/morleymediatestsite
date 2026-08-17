@@ -1,0 +1,29 @@
+---
+layout: default
+---
+<section class="hero">
+  <div class="hero__media">
+    <img src="{{ page.hero_image | relative_url }}" alt="{{ page.hero_image_alt | default: 'Portrait photo' }}">
+  </div>
+  <div class="hero__content">
+    <p class="eyebrow">00:01 — ABOUT</p>
+    <h1 class="hero__headline">{{ page.headline }}</h1>
+    <div class="hero__bio">
+      {{ content }}
+    </div>
+    <a class="button" href="{{ '/projects/' | relative_url }}">View the work</a>
+  </div>
+</section>
+
+<section class="services wrap">
+  <p class="eyebrow">00:02 — SERVICES</p>
+  <div class="services__grid">
+    {% for service in page.services %}
+    <div class="services__item">
+      <span class="services__index">{{ forloop.index | prepend: '0' | slice: -2, 2 }}</span>
+      <h3>{{ service.title }}</h3>
+      <p>{{ service.description }}</p>
+    </div>
+    {% endfor %}
+  </div>
+</section>

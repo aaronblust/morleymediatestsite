@@ -1,0 +1,35 @@
+---
+layout: default
+---
+<article class="project">
+  <div class="project__cover">
+    <img src="{{ page.cover | relative_url }}" alt="{{ page.title }}">
+  </div>
+
+  <div class="wrap project__header">
+    <div class="project__header-main">
+      <p class="eyebrow">00:03 — PROJECT</p>
+      <h1>{{ page.title }}</h1>
+      <div class="project__body">{{ content }}</div>
+    </div>
+    <dl class="project__meta">
+      {% if page.client %}<dt>Client</dt><dd>{{ page.client }}</dd>{% endif %}
+      {% if page.role %}<dt>Role</dt><dd>{{ page.role }}</dd>{% endif %}
+      {% if page.year %}<dt>Year</dt><dd>{{ page.year }}</dd>{% endif %}
+    </dl>
+  </div>
+
+  {% if page.gallery %}
+  <div class="project__gallery wrap">
+    {% for image in page.gallery %}
+    <div class="project__gallery-item">
+      <img src="{{ image | relative_url }}" alt="{{ page.title }} — additional photo">
+    </div>
+    {% endfor %}
+  </div>
+  {% endif %}
+
+  <div class="wrap project__nav">
+    <a href="{{ '/projects/' | relative_url }}">&larr; Back to all work</a>
+  </div>
+</article>

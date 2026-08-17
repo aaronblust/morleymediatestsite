@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1250" width="1000" height="1250">
+  <rect width="1000" height="1250" fill="#9C6B45"/>
+  <rect width="1000" height="1250" fill="#2F3A2F" opacity="0.06"/>
+  <g font-family="monospace" text-anchor="middle">
+    <text x="500.0" y="615.0" fill="#F6F4EE" font-size="45" opacity="0.9">PHOTO OF FINN</text>
+    <text x="500.0" y="645.0" fill="#F6F4EE" font-size="26" opacity="0.65">replace: finn-placeholder.svg (portrait, ~4:5)</text>
+  </g>
+  <g stroke="#F6F4EE" stroke-opacity="0.35">
+    <line x1="24" y1="24" x2="64" y2="24"/>
+    <line x1="24" y1="24" x2="24" y2="64"/>
+    <line x1="976" y1="1226" x2="936" y2="1226"/>
+    <line x1="976" y1="1226" x2="976" y2="1186"/>
+  </g>
+</svg>
