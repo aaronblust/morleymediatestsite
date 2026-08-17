@@ -1,0 +1,13 @@
+<header class="site-header">
+  <div class="wrap site-header__inner">
+    <a class="site-header__mark" href="{{ '/' | relative_url }}">
+      <span class="site-header__mark-title">Morely Media</span>
+      <span class="site-header__mark-sub">Juneau, Alaska</span>
+    </a>
+    <nav class="site-header__nav">
+      {% for item in site.nav %}
+        <a href="{{ item.url | relative_url }}">{{ item.title }}</a>
+      {% endfor %}
+    </nav>
+  </div>
+</header>

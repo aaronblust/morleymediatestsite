@@ -1,0 +1,52 @@
+title: Morely Media
+tagline: Media & Videography — Juneau, Alaska
+description: >-
+  Morely Media is a small videography and media production studio
+  based in Juneau, Alaska.
+
+# ---------------------------------------------------------------
+# EDIT THIS before you go live: this should be your domain, with
+# no trailing slash. It's used to build sharing links etc.
+# ---------------------------------------------------------------
+url: "https://www.yourdomain.com"
+baseurl: ""
+
+email: hello@morelymedia.com
+location: "Juneau, Alaska"
+
+nav:
+  - title: Home
+    url: /
+  - title: Work
+    url: /projects/
+  - title: Contact
+    url: /#contact
+
+collections:
+  projects:
+    output: true
+    permalink: /projects/:name/
+
+defaults:
+  - scope:
+      path: ""
+      type: "projects"
+    values:
+      layout: "project"
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
+
+markdown: kramdown
+kramdown:
+  input: GFM
+
+sass:
+  style: compressed
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock

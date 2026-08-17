@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" width="1200" height="900">
+  <rect width="1200" height="900" fill="#5F6B4F"/>
+  <rect width="1200" height="900" fill="#2F3A2F" opacity="0.06"/>
+  <g font-family="monospace" text-anchor="middle">
+    <text x="600.0" y="440.0" fill="#F6F4EE" font-size="54" opacity="0.9">PROJECT-2 PHOTO C</text>
+    <text x="600.0" y="470.0" fill="#F6F4EE" font-size="31" opacity="0.65">replace: gallery image (~4:3)</text>
+  </g>
+  <g stroke="#F6F4EE" stroke-opacity="0.35">
+    <line x1="24" y1="24" x2="64" y2="24"/>
+    <line x1="24" y1="24" x2="24" y2="64"/>
+    <line x1="1176" y1="876" x2="1136" y2="876"/>
+    <line x1="1176" y1="876" x2="1176" y2="836"/>
+  </g>
+</svg>

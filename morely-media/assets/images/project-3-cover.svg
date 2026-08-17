@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 933" width="1400" height="933">
+  <rect width="1400" height="933" fill="#7C8A99"/>
+  <rect width="1400" height="933" fill="#2F3A2F" opacity="0.06"/>
+  <g font-family="monospace" text-anchor="middle">
+    <text x="700.0" y="456.5" fill="#F6F4EE" font-size="63" opacity="0.9">PROJECT-3 COVER</text>
+    <text x="700.0" y="486.5" fill="#F6F4EE" font-size="36" opacity="0.65">replace: cover image (~3:2 landscape)</text>
+  </g>
+  <g stroke="#F6F4EE" stroke-opacity="0.35">
+    <line x1="24" y1="24" x2="64" y2="24"/>
+    <line x1="24" y1="24" x2="24" y2="64"/>
+    <line x1="1376" y1="909" x2="1336" y2="909"/>
+    <line x1="1376" y1="909" x2="1376" y2="869"/>
+  </g>
+</svg>
